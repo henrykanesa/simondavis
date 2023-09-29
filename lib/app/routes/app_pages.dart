@@ -4,6 +4,8 @@ import '../modules/add_todo/bindings/add_todo_binding.dart';
 import '../modules/add_todo/views/add_todo_view.dart';
 import '../modules/all_todo/bindings/all_todo_binding.dart';
 import '../modules/all_todo/views/all_todo_view.dart';
+import '../modules/cetak/bindings/cetak_binding.dart';
+import '../modules/cetak/views/cetak_view.dart';
 import '../modules/detail_todo/bindings/detail_todo_binding.dart';
 import '../modules/detail_todo/views/detail_todo_view.dart';
 import '../modules/edit_todo/bindings/edit_todo_binding.dart';
@@ -57,6 +59,11 @@ class AppPages {
       name: _Paths.EDIT_TODO,
       page: () => const EditTodoView(),
       binding: EditTodoBinding(),
+    ),
+    GetPage(
+      name: _Paths.CETAK,
+      page: () => const CetakView(),
+      binding: CetakBinding(),
     ),
   ];
 }

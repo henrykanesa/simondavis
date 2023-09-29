@@ -144,6 +144,14 @@ class AllTodoView extends GetView<AllTodoController> {
                   }
                 },
               ),
+              FloatingActionButton(
+                onPressed: () {
+                  Get.toNamed(Routes.CETAK);
+                },
+                child: Icon(
+                  Icons.print,
+                ),
+              ),
             ],
           );
         },

@@ -127,6 +127,7 @@ class DetailTodoView extends GetView<DetailTodoController> {
               ),
             ),
           ),
+          
         ],
       ),
     );

@@ -12,8 +12,8 @@ abstract class Routes {
   static const EDIT_TODO = _Paths.EDIT_TODO;
   static const DELETE_TODO = _Paths.DELETE_TODO;
   static const SEARCH = _Paths.SEARCH;
-  static const PDF = _Paths.PDF;
-  static const PREVIEW_SCREEN = _Paths.PREVIEW_SCREEN;
+
+  static const CETAK = _Paths.CETAK;
 }
 
 abstract class _Paths {
@@ -29,4 +29,5 @@ abstract class _Paths {
   static const SEARCH = '/search';
   static const PDF = '/pdf';
   static const PREVIEW_SCREEN = '/preview-screen';
+  static const CETAK = '/cetak';
 }
