@@ -15,7 +15,7 @@ class AllTodoView extends GetView<AllTodoController> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Data Hasil Monitoring',
+          'Data Monitoring',
           style: TextStyle(
             color: AppColor.secondary,
             fontSize: 14,
@@ -63,7 +63,9 @@ class AllTodoView extends GetView<AllTodoController> {
                             Routes.DETAIL_TODO,
                             arguments: {
                               "tanggal": "${todoData["tanggal"]}",
+                              "waktuawal": "${todoData["waktuawal"]}",
                               "waktu": "${todoData["waktu"]}",
+                              "waktuakhir": "${todoData["waktuakhir"]}",
                               "namadudi": "${todoData["namadudi"]}",
                               "alamatdudi": "${todoData["alamatdudi"]}",
                               "jumlahsiswa": "${todoData["jumlahsiswa"]}",

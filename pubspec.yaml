@@ -19,6 +19,8 @@ dependencies:
   uuid: ^3.0.7
   camera_camera: ^3.0.0
   file_picker: ^5.5.0
+  printing: ^5.11.0
+  pdf: ^3.10.4
 
 dev_dependencies:
   flutter_lints: ^2.0.0

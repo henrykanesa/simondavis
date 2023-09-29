@@ -171,7 +171,7 @@ class HomeView extends GetView<HomeController> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Daftar Kegiatan Monitoring",
+                            "Data Monitoring",
                             style: TextStyle(
                               fontFamily: "poppins",
                               fontWeight: FontWeight.w600,
