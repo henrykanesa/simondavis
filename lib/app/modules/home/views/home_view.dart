@@ -214,7 +214,11 @@ class HomeView extends GetView<HomeController> {
                                           //yang didalam kurung kotak adalah nama kolom dalam database
                                           "id": "${todoData["task_id"]}",
                                           "tanggal": "${todoData["tanggal"]}",
+                                          "waktuawal":
+                                              "${todoData["waktuawal"]}",
                                           "waktu": "${todoData["waktu"]}",
+                                          "waktuakhir":
+                                              "${todoData["waktuakhir"]}",
                                           "namadudi": "${todoData["namadudi"]}",
                                           "alamatdudi":
                                               "${todoData["alamatdudi"]}",
