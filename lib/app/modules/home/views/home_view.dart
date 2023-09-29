@@ -134,7 +134,7 @@ class HomeView extends GetView<HomeController> {
                                                 margin:
                                                     EdgeInsets.only(bottom: 6),
                                                 child: Text(
-                                                  "Jumlah Kegiatan Monitoring Update",
+                                                  "Jumlah Kegiatan Monitoring",
                                                   style: TextStyle(
                                                     fontSize: 12,
                                                     color: Colors.white,
